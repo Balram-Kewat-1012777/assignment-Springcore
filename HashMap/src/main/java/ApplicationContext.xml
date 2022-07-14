@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+ 
+ <bean id="map" class="java.util.HashMap" scope="prototype" >
+    <constructor-arg>
+        <map key-type="java.lang.String" value-type="java.lang.Integer">
+            
+           <entry key="Sunil" value="123" />
+            <entry key="anil" value="678" />
+            <entry key="balram" value="100" />
+            <entry key="rohit" value="500" />
+            <entry key="pankaj" value="101" />
+            <entry key="sandeep" value="222" />
+            <entry key="kailash" value="931" />
+            <entry key="shubham" value="618" />
+            <entry key="bhusan" value="433" />
+            <entry key="sameer" value="228" />
+            
+        </map>
+    </constructor-arg>
+</bean>
+</beans>
